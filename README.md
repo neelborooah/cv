@@ -1,5 +1,7 @@
 Description
 -----------
+Originally ported from https://github.com/dnl-blkv/mcdowell-cv.
+
 This repository features a LuaLaTeX version of a convenient CV class and a template
 showing it usage. The template design was originally proposed by Gayle L. McDowell at 
 http://www.careercup.com/resume. 
