@@ -1,0 +1,107 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath, hyperref}
+
+% Set applicant's personal data for header
+\name{Neel Borooah}
+\address{303, Orchid, RFG \linebreak Kasturi Nagar \linebreak Bangalore 560043}
+\contacts{+91-8095065000 \linebreak neelborooah@gmail.com \linebreak \href{http://neelborooah.com}{neelborooah.com}}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Python, Java, MySQL, Javascript, HTML, CSS;
+				\item Django, Tastypie, Struts2, Hibernate3, JQuery, ReactJS;
+				\item Eclipse, Tomcat, HTTPD, WAMP, Linux, Git;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Full Stack Developer}{StayGlad}{August 2015 – Present}
+			StayGlad is an on-demand beauty service platform in India. I was the first employee on the engineering team, and helped the company scale to a series A and acquisition by Quickr.
+			\begin{itemize}
+				\item I built the website, dashboard, and android app. I built the backend using Restful APIs and SOA to scale to thousands of transactions per day.
+				\item Developed a custom workflow management system for processing transactions.
+				\item Migrated the website and dashboard to a highly performant ReactJS based system.
+				\item Technologies used: Python, MySQL, HTML, CSS, Javascript, ReactJS, Django, Tastypie, JQuery.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Co-founder}{Ideal Nodes}{March 2014 – July 2015}	
+			We were building a cloud based school management system with social networking elements for tackling the problem of low engagement in existing players.
+			\begin{itemize}
+				\item Developed the backend and database of the cloud-based school management system.
+				\item Managing other developers, pitching to clients, refining business model, maintaining profitability and other tasks associated with running a business.
+				\item Technologies used: Java, MySQL, Javascript, HTML, CSS, PHP, Struts2, Hibernate3, JQuery.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Consultant Developer}{Prozo.com}{Jan 2015 – August 2015}
+			Prozo is an e-commerce platform for education material in the B2B space. I was the second member on the tech team and helped the company scale to hundreds of orders a day and secure seed funding.	
+			\begin{itemize}
+				\item Development of the user interface for desktops, tablets, and mobiles.
+				\item Server administration including release management, scalability and security.
+				\item Technologies used: HTML, CSS, Javascript, PHP.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Engineer}{IndVen Technologies}{2013 - 2014}
+			\begin{itemize}
+				\item Handled development of a fault monitoring system which consisted of interaction with existing hardware, fault monitoring and report generation.
+				\item Developed a digital content distribution system and an annotation system for images.
+				\item Technologies used: Java, MySQL, Struts2, Hibernate3, Javascript, HTML, CSS.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Collision detection and avoidance (Present):} Detecting incoming collisions and generating possible avoidance strategies for a given object. Technologies used: Javascript, Java
+				\item \textbf{Syntax and semantic analysis of input text and automatic correction (2013):} A desktop application for automatic correction of incorrect spellings. Technologies used: Java, Git
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Amity University (Noida):} B.Tech (Computer Science); GPA: 6.4
+				\item \textbf{Bethany High (Bangalore):} ISC; 87\%
+				\item \textbf{Cathedral High School (Bangalore):} ICSE; 86\%
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
